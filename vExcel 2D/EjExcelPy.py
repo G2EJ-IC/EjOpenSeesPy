@@ -11,6 +11,9 @@ Created on Sun Aug 29 23:06:41 2021
 #Change plot backend to 'Nbagg' if using in Jupyter notebook to get an interactive, inline plot.
 #%matplotlib notebook
 
+import sys
+#sys.path.append('C:/ProgramData/Anaconda3/Lib/site-packages/openseespywin')
+
 from openseespy.opensees import *
 #import openseespy.postprocessing.Get_Rendering as opsplt
 import openseespyvis.Get_Rendering as opsplt
